@@ -54,3 +54,45 @@ Editor.builtinPlugins = [
 	Paragraph
 ];
 
+// Editor configuration.
+ClassicEditor.defaultConfig = {
+    toolbar: {
+        items: [
+			'heading',
+			'|',
+			'bold',
+			'italic',
+			'link',
+			'bulletedList',
+			'numberedList',
+			'|',
+			'indent',
+			'outdent',
+			'|',
+			'MathType',
+			'ChemType',
+			'imageUpload',
+			'blockQuote',
+			'insertTable',
+			'mediaEmbed',
+			'undo',
+			'redo'
+        ]
+    },
+    image: {
+		toolbar: [
+			'imageTextAlternative',
+			'imageStyle:full',
+			'imageStyle:side'
+		]
+	},
+	table: {
+		contentToolbar: [
+			'tableColumn',
+			'tableRow',
+			'mergeTableCells'
+		]
+	},
+    // This value must be kept in sync with the language defined in webpack.config.js.
+    language: 'en'
+};
