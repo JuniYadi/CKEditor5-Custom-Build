@@ -51,7 +51,7 @@ Editor.builtinPlugins = [
 ];
 
 // Editor configuration.
-ClassicEditor.defaultConfig = {
+Editor.defaultConfig = {
     toolbar: {
         items: [
 			'heading',
